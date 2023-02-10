@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(../fonts/Norse-Bold.otf);
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #383636;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 1024px;
+    margin: 10px auto;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 536px;
+    background-image: url(../image/tree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.logo {
+    width: 536px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 222px;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    width: 96px;
+    height: 128px;
+}
+
+.logo-name{
+    font-family: Norse-Bold, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.content {
+    background-color: #f9fafb;
+    flex: 1;
+    height: 100%;
+}
+
+.header {
+    margin: 170px 186px 0 46px;
+}
+
+.header p {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.para-3 {
+    margin-top: 22px;
+    margin-bottom: 66px;
+}
+
+.form {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-left: 46px;
+}
+
+.footer {
+    padding-left: 46px;
+}
