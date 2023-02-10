@@ -110,6 +110,7 @@ input {
 
 .form-control {
     margin-right: 70px;
+    margin-bottom: 18px;
 }
 
 .form-control label {
@@ -118,11 +119,18 @@ input {
     font-weight: 600;
 }
 
+.form-control .notice {
+    margin-top: 4px;
+    height: 1.4rem;
+    color: #f94848;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
 .form-input {
     height: 32px;
     width: 260px;
     padding: 4px 8px;
-    margin-bottom: 22px;
     border: 1px solid #ede7e7;
     border-radius: 4px;
 }
@@ -133,5 +141,32 @@ input {
 }
 
 .footer {
-    padding-left: 30px;
+    padding-left: 46px;
+    padding-top: 36px;
+}
+
+.submit {
+    width: 234px;
+    height: 50px;
+    margin-bottom: 38px;
+    color: #fff;
+    font-size: 1.8rem;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: #596d48;
+    cursor: pointer;
+}
+
+.submit:hover {
+    opacity: 0.7;
+}
+
+.text-des {
+    font-size: 1.8rem;
+}
+
+.text-des a {
+    text-decoration: none;
+    color: #596d48;
 }

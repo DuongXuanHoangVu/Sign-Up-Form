@@ -28,26 +28,32 @@
                         <div class="form-control">
                             <label for="">First Name</label>
                             <input class="form-input" type="text" name="first-name">
+                            <p class="notice"></p>
                         </div>
                         <div class="form-control">
                             <label for="">Last Name</label>
                             <input class="form-input" type="text" name="last-name">
+                            <p class="notice"></p>
                         </div>
                         <div class="form-control">
                             <label for="">Email</label>
                             <input class="form-input" type="email" name="email">
+                            <p class="notice"></p>
                         </div>
                         <div class="form-control">
                             <label for="">Phone Number</label>
                             <input class="form-input" type="number" name="phone">
+                            <p class="notice"></p>
                         </div>
                         <div class="form-control">
                             <label for="">Password</label>
                             <input class="form-input" type="password" name="password">
+                            <p class="notice password-mes"></p>
                         </div>
                         <div class="form-control">
                             <label for="">Confirm Password</label>
                             <input class="form-input" type="password" name="passsword-confirm">
+                            <p class="notice password-confirm-mes"></p>
                         </div>
     
     
@@ -55,7 +61,7 @@
                 </form>
             </div>
             <div class="footer">
-                <button class="submit">Create Account</button>
+                <button class="submit" onclick="verifyPassword()">Create Account</button>
                 <p class="text-des">Already have an account? <a href="">Log in</a></p>
             </div>
         </div>
