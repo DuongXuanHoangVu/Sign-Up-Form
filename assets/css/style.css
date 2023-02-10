@@ -19,6 +19,11 @@ body {
     background-color: #383636;
 }
 
+input {
+    border: none;
+    outline: none;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -88,6 +93,45 @@ body {
     padding-left: 46px;
 }
 
+.form .title {
+    font-size: 2.2rem;
+    padding: 12px 0;
+}
+
+.form-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    margin-right: 70px;
+}
+
+.form-control label {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.form-input {
+    height: 32px;
+    width: 260px;
+    padding: 4px 8px;
+    margin-bottom: 22px;
+    border: 1px solid #ede7e7;
+    border-radius: 4px;
+}
+
+.form-input:focus {
+    border: 1px solid #6671e9;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
 .footer {
-    padding-left: 46px;
+    padding-left: 30px;
 }
